@@ -31,9 +31,10 @@ func AnalysisGroup7(message string) (data string, err error) {
 			fmt.Println("Group7Info resp ", data)
 		}()
 	}
+	fmt.Println(fmt.Sprintf("message:%s", message))
 	// 编组7以"/"为分隔符
 	messageArr := strings.Split(message, "/")
-
+	fmt.Println(fmt.Sprintf("messageArr:%s", messageArr))
 	if len(messageArr) < 1 {
 		errMsg := fmt.Sprintf("编组7数据错误：请检查[Message: %s]\n", message)
 		err = errors.New(errMsg)
@@ -41,11 +42,13 @@ func AnalysisGroup7(message string) (data string, err error) {
 	}
 	// 解析航班号
 	flight := messageArr[0]
+	fmt.Println(fmt.Sprintf("message:%s", messageArr[0]))
 	lastChar := flight[len(flight)-1:]
+	fmt.Println(fmt.Sprintf("lastChar:%s", flight[len(flight)-1:]))
 	lastDigit := ""
 	if lastChar >= "Q" && lastChar <= "Z" {
 		lastDigit = ADataMap[lastChar]
-		if "" == lastDigit{
+		if "" == lastDigit {
 			lastDigit = "无法对编组7 " + lastChar + "进行解析"
 		}
 		flight = "补班" + flight[:len(flight)-1]
@@ -63,7 +66,6 @@ func AnalysisGroup7(message string) (data string, err error) {
 	} else {
 		data = "航班: " + flight + "\n"
 	}
-
 	return
 
 }

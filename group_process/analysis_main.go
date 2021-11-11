@@ -9,53 +9,61 @@ import (
 
 // 解析电报主函数
 func ProcessMessageMain(message string) (data string, err error) {
+	var (
+		messageRule config.MessageRule
+		role []int
+	)
+
 	fmt.Println("电报内容: ", message)
 
 	// 按照"-"或者换行符进行切分
 	newMessage := strings.ReplaceAll(message, "\n", "")
 	messageArr := strings.Split(newMessage, "-")
 	if 0 == len(messageArr) {
-		fmt.Println("电报输入错误，请检查")
+		err = errors.New(fmt.Sprintf("电报输入错误，请检查"))
+		fmt.Println(err)
 		return
 	}
-
+	fmt.Println()
 	// 编组3 解析电报类型
 	group3Info, err := AnalysisGroup3(messageArr[0])
 	if err != nil {
 		return
 	}
+	fmt.Println(group3Info)
 	// 对逻辑确认报特殊处理
 	if strings.HasPrefix(messageArr[0], "LAM") {
 		data = group3Info
 		return
 	}
 
-	var messageRule config.MessageRule = config.MessageRule{
-		"",
-		[]int{0},
-	}
-	for _, rule := range config.Config.MessageRuleList {
-		if rule.MessageType == messageArr[0] {
-			messageRule = rule
+	for _, v := range config.Config.MessageRuleList {
+		if v.MessageType == messageArr[0] {
+			messageRule = v
 		}
 	}
 
 	if messageRule.MessageType == "" {
-		errMsg := fmt.Sprintf("未找到正确的电报类型[Type: %s]", messageArr[0])
-		err = errors.New(errMsg)
+		err = errors.New(fmt.Sprintf("未找到正确的电报类型[Type: %s]", messageArr[0]))
+		return
+	}
+
+	for _, value := range messageRule.RuleList {
+		if len(value) == len(messageArr)-1 {
+			role = value
+		}
+	}
+
+	if len(role) == 0 {
+		err = errors.New(fmt.Sprintf("数据格式错误，请检查[Message: %s]\n", message))
 		return
 	}
 
 	data += group3Info
 	index := 1
 	blank := "    -"
-	for _, value := range messageRule.Rule {
+	for _, value := range role {
 		processRsp := ""
-		if index >= len(messageArr) {
-			errMsg := fmt.Sprintf("数据格式错误，请检查[Message: %s]\n", message)
-			err = errors.New(errMsg)
-			return
-		}
 		// 按照编组类型进行解析
 		switch value {
 		case 3:
@@ -91,16 +99,14 @@ func ProcessMessageMain(message string) (data string, err error) {
 		case 22:
 			processRsp, err = AnalysisGroup22(messageArr[index])
 		default:
-			errMsg := fmt.Sprintf("当前未对编组%s的内容进行解析\n", value)
-			err = errors.New(errMsg)
+			err = errors.New(fmt.Sprintf("当前未对编组%s的内容进行解析\n", value))
 			return
 		}
-
 		if err != nil {
 			return
 		}
-		index++
 		data += blank + processRsp
+		index++
 	}
 
 	return

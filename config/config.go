@@ -2,7 +2,7 @@ package config
 
 type MessageRule struct {
 	MessageType string
-	Rule        []int // 电报编组规则
+	RuleList    [][]int // 电报编组规则
 }
 
 var Config = struct {
@@ -11,92 +11,93 @@ var Config = struct {
 	MessageRuleList: []MessageRule{
 		{
 			MessageType: "ARR",
-			Rule: []int{
-				7, 13, 16, 17,
+			RuleList: [][]int{
+				{7, 13, 17},
+				{7, 13, 16, 17},
 			},
 		},
 		{
 			MessageType: "DEP",
-			Rule: []int{
-				7, 13, 16, 18,
+			RuleList: [][]int{
+				{7, 13, 16, 18},
 			},
 		},
 		{
 			MessageType: "FPL",
-			Rule: []int{
-				7, 8, 9, 10, 13, 15, 16, 18,
+			RuleList: [][]int{
+				{7, 8, 9, 10, 13, 15, 16, 18},
 			},
 		},
 		{
 			MessageType: "CHG",
-			Rule: []int{
-				7, 13, 16, 18, 22,
+			RuleList: [][]int{
+				{7, 13, 16, 18, 22},
 			},
 		},
 		{
 			MessageType: "CNL",
-			Rule: []int{
-				7, 13, 16, 18,
+			RuleList: [][]int{
+				{7, 13, 16, 18},
 			},
 		},
 		{
 			MessageType: "DLA",
-			Rule: []int{
-				7, 13, 16, 18,
+			RuleList: [][]int{
+				{7, 13, 16, 18},
 			},
 		},
 		{
 			MessageType: "EST",
-			Rule: []int{
-				7, 13, 14, 16,
+			RuleList: [][]int{
+				{7, 13, 14, 16},
 			},
 		},
 		{
 			MessageType: "CPL",
-			Rule: []int{
-				7, 8, 9, 10, 13, 14, 15, 16, 18,
+			RuleList: [][]int{
+				{7, 8, 9, 10, 13, 14, 15, 16, 18},
 			},
 		},
 		{
 			MessageType: "CDN",
-			Rule: []int{
-				7, 13, 16, 22,
+			RuleList: [][]int{
+				{7, 13, 16, 22},
 			},
 		},
 		{
 			MessageType: "ACP",
-			Rule: []int{
-				7, 13, 16,
+			RuleList: [][]int{
+				{7, 13, 16},
 			},
 		},
 		{
 			MessageType: "RQP",
-			Rule: []int{
-				7, 13, 16, 18,
+			RuleList: [][]int{
+				{7, 13, 16, 18},
 			},
 		},
 		{
 			MessageType: "RQS",
-			Rule: []int{
-				7, 13, 16, 18,
+			RuleList: [][]int{
+				{7, 13, 16, 18},
 			},
 		},
 		{
 			MessageType: "SPL",
-			Rule: []int{
-				7, 13, 16, 18, 19,
+			RuleList: [][]int{
+				{7, 13, 16, 18, 19},
 			},
 		},
 		{
 			MessageType: "ALR",
-			Rule: []int{
-				5, 7, 8, 9, 10, 13, 15, 16, 18, 19, 20,
+			RuleList: [][]int{
+				{5, 7, 8, 9, 10, 13, 15, 16, 18, 19, 20},
 			},
 		},
 		{
 			MessageType: "RCF",
-			Rule: []int{
-				7, 21,
+			RuleList: [][]int{
+				{7, 21},
 			},
 		},
 	},
@@ -104,12 +105,13 @@ var Config = struct {
 
 type Group3_unit struct {
 	MessageType string
-	Desc string
+	Desc        string
 }
+
 var Group3_info = struct {
 	Info []Group3_unit
 }{
-	Info:[]Group3_unit{
+	Info: []Group3_unit{
 		{
 			"ARR",
 			"落地报",
@@ -176,4 +178,3 @@ var Group3_info = struct {
 		},
 	},
 }
-

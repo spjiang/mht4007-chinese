@@ -356,6 +356,13 @@ var AirportInfo = struct {
 			IntelligenceArea: "兰州情报区",
 		},
 		{
+			Code: "ZBHD",
+			AirPortName: "邯郸机场",
+			AirPortEnName: "JIAYUQUAN",
+			AirPortCity: "邯郸",
+			IntelligenceArea: "邯郸情报区",
+		},
+		{
 			Code: "ZLLL",
 			AirPortName: "中川机场",
 			AirPortEnName: "LANZHOU/ZHONGCHUAN",
@@ -438,6 +445,13 @@ var AirportInfo = struct {
 			AirPortEnName: "KUNMING/WUJIABA",
 			AirPortCity: "昆明",
 			IntelligenceArea: "昆明情报区",
+		},
+		{
+			Code: "ZBLL",
+			AirPortName: "吕梁/大武机场",
+			AirPortEnName: "KUNMING/WUJIABA",
+			AirPortCity: "吕梁",
+			IntelligenceArea: "太原情报区",
 		},
 		{
 			Code: "ZPSM",
@@ -980,7 +994,7 @@ var AirportInfo = struct {
 		},
 		{
 			Code: "VHHH",
-			AirPortName: "赤腊角机场",
+			AirPortName: "香港赤腊角机场",
 			AirPortEnName: "HONGKONG/INTL",
 			AirPortCity: "香港/国际机场",
 			IntelligenceArea: "中国香港",

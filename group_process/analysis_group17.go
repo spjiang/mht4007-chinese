@@ -12,6 +12,7 @@ import (
 
 // A:落地机场，B:落地时间，C：落地机场(A为ZZZZ时)
 func AnalysisGroup17(message string) (data string, err error) {
+	fmt.Println(fmt.Sprintf("AnalysisGroup17-message:%s",message))
 	if true == global.GlobalVar.PrintDebugInfo {
 		fmt.Println("GetGroup17Info：", message)
 		defer func() {
@@ -31,6 +32,7 @@ func AnalysisGroup17(message string) (data string, err error) {
 
 		} else {
 			// 落地名称
+			fmt.Println(fmt.Sprintf("AnalysisGroup17-GetAirportInfo:%s",arrportCode))
 			arrportInfo, newErr := tool.GetAirportInfo(arrportCode)
 			if newErr != nil {
 				err = newErr

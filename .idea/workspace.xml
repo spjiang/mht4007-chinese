@@ -1,118 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6cc8ebc-c6de-4b86-ad7b-586a5cc542e7" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="b6cc8ebc-c6de-4b86-ad7b-586a5cc542e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/airport_info.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/airport_info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_process/analysis_group13.go" beforeDir="false" afterPath="$PROJECT_DIR$/group_process/analysis_group13.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_process/analysis_group17.go" beforeDir="false" afterPath="$PROJECT_DIR$/group_process/analysis_group17.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_process/analysis_group7.go" beforeDir="false" afterPath="$PROJECT_DIR$/group_process/analysis_group7.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_process/analysis_main.go" beforeDir="false" afterPath="$PROJECT_DIR$/group_process/analysis_main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="telegraphTranslator" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/group_process/analysis_group10.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/telegraph_analysis.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#14#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tool/file_operation.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!block;n#GetAirportInfo#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/group_process/analysis_main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-482">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <element signature="e#24#92#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="222" selection-end-column="222" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/group_process/analysis_group20.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/group_process/analysis_group15.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/group_process/analysis_group14.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/group_process/analysis_group21.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,156 +26,41 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>airport_</find>
-      <find>情报区&quot;</find>
-      <find>airport_info.json</find>
-      <find>GetUseInput</find>
-      <find>GetTeleMessage</find>
-      <find>group_process</find>
-      <find>analysis_group</find>
-      <find>FPL</find>
-      <find>CHG</find>
-      <find>map</find>
-      <find>otherInfo</find>
-      <find>conta</find>
-      <find>无法</find>
-      <find>未找到正确的电报类型</find>
-      <find>电报内容</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>情报区&quot;,</replace>
-      <replace>GetTeleMessageFromFile</replace>
-      <replace>GetTeleMessageFromUserInput</replace>
-      <replace>analysis_group</replace>
-    </replaceStrings>
-  </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.2/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/config/airport_info.go" />
-        <option value="$PROJECT_DIR$/group_process/group5_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group8_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group9_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group10_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group13_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group14_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group21_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group19_process.go" />
-        <option value="$PROJECT_DIR$/config/config.go" />
-        <option value="$PROJECT_DIR$/group_process/group3_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group7_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group15_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group16_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group17_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group18_process.go" />
-        <option value="$PROJECT_DIR$/group_process/group22_process.go" />
-        <option value="$PROJECT_DIR$/group_process/main_process.go" />
-        <option value="$PROJECT_DIR$/config/global.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group13.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group16.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group17.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group19.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group20.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_main.go" />
-        <option value="$PROJECT_DIR$/global/global.go" />
-        <option value="$PROJECT_DIR$/project.yml" />
-        <option value="$PROJECT_DIR$/CHANGEME.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group5.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group3.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group9.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group15.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group21.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group8.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group22.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group7.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group18.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group14.go" />
-        <option value="$PROJECT_DIR$/group_process/analysis_group10.go" />
-        <option value="$PROJECT_DIR$/input.txt" />
-        <option value="$PROJECT_DIR$/tool/file_operation.go" />
-        <option value="$PROJECT_DIR$/telegraph_analysis.go" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1zLGHfQszZnoTVRSWx5TDOAL0TF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="412" />
-    <option name="y" value="382" />
-    <option name="width" value="1371" />
-    <option name="height" value="810" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="telegraphTranslator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegraphTranslator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegraphTranslator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegraphTranslator" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegraphTranslator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegraphTranslator" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegraphTranslator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegraphTranslator" type="462c0819:PsiDirectoryNode" />
-              <item name="global" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegraphTranslator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegraphTranslator" type="462c0819:PsiDirectoryNode" />
-              <item name="group_process" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dockerLog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\mycode\go\src\telegraphTranslator\global" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="go build telegraph_analysis.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -288,238 +78,80 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1233" height="735" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.21702127" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5012346" side_tool="true" weight="0.24936171" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.19900498" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26533997" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3283582" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/airport_info.json" />
-    <entry file="file://$PROJECT_DIR$/file/pic.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/airport_info.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="995" column="1" selection-start-line="995" selection-start-column="1" selection-end-line="995" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGEME.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group5.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group3.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group9.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group13.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group17.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-229">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/global/global.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group8.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group22.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group7.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group18.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-914">
-          <caret line="139" column="61" selection-start-line="139" selection-start-column="61" selection-end-line="139" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group19.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group16.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group15.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group14.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group21.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group20.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_group10.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="222" selection-end-column="222" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/file_operation.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!block;n#GetAirportInfo#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_process/analysis_main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-482">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/telegraph_analysis.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#14#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="621" y="316" key="EnvironmentVariablesDialog" timestamp="1633920289015">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="621" y="316" key="EnvironmentVariablesDialog/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1633920289015" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1636642010540">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1634128126601" />
+    <state width="1878" height="390" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1634624072204" />
+    <state width="1398" height="313" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1636017906739" />
+    <state width="1398" height="313" key="GridCell.Tab.0.bottom/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636419305719" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.25.1440.809/-631.-1415.2560.1415@0.25.1440.809" timestamp="1636642010540" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.25.1440.813/-631.-1415.2560.1415@0.25.1440.813" timestamp="1636637935520" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1636613050264" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.25.1440.815/1440.-238.1920.1055@0.25.1440.815" timestamp="1636626656622" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1636538739595" />
+    <state width="1398" height="277" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-238.1920.986@0.25.1440.875" timestamp="1636535652257" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1636642010539">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state width="1398" height="195" key="GridCell.Tab.0.center/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1634128126599" />
+    <state width="1878" height="390" key="GridCell.Tab.0.center/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1634624072202" />
+    <state width="1398" height="313" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1636017906737" />
+    <state width="1398" height="313" key="GridCell.Tab.0.center/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636419305719" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.25.1440.809/-631.-1415.2560.1415@0.25.1440.809" timestamp="1636642010539" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.25.1440.813/-631.-1415.2560.1415@0.25.1440.813" timestamp="1636637935519" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1636613050263" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.25.1440.815/1440.-238.1920.1055@0.25.1440.815" timestamp="1636626656621" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1636538739594" />
+    <state width="1398" height="277" key="GridCell.Tab.0.center/0.25.1440.875/1440.-238.1920.986@0.25.1440.875" timestamp="1636535652256" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1636642010538">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state width="1398" height="195" key="GridCell.Tab.0.left/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1634128126598" />
+    <state width="1878" height="390" key="GridCell.Tab.0.left/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1634624072202" />
+    <state width="1398" height="313" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1636017906736" />
+    <state width="1398" height="313" key="GridCell.Tab.0.left/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636419305718" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.25.1440.809/-631.-1415.2560.1415@0.25.1440.809" timestamp="1636642010538" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.25.1440.813/-631.-1415.2560.1415@0.25.1440.813" timestamp="1636637935517" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1636613050262" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.25.1440.815/1440.-238.1920.1055@0.25.1440.815" timestamp="1636626656621" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1636538739594" />
+    <state width="1398" height="277" key="GridCell.Tab.0.left/0.25.1440.875/1440.-238.1920.986@0.25.1440.875" timestamp="1636535652254" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1636642010539">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state width="1398" height="195" key="GridCell.Tab.0.right/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1634128126600" />
+    <state width="1878" height="390" key="GridCell.Tab.0.right/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1634624072203" />
+    <state width="1398" height="313" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1636017906738" />
+    <state width="1398" height="313" key="GridCell.Tab.0.right/0.25.1440.806/1440.-238.1920.1055@0.25.1440.806" timestamp="1636419305719" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.25.1440.809/-631.-1415.2560.1415@0.25.1440.809" timestamp="1636642010539" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.25.1440.813/-631.-1415.2560.1415@0.25.1440.813" timestamp="1636637935520" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.25.1440.813/1440.-238.1920.1055@0.25.1440.813" timestamp="1636613050263" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.25.1440.815/1440.-238.1920.1055@0.25.1440.815" timestamp="1636626656622" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.25.1440.817/1440.-238.1920.1055@0.25.1440.817" timestamp="1636538739595" />
+    <state width="1398" height="277" key="GridCell.Tab.0.right/0.25.1440.875/1440.-238.1920.986@0.25.1440.875" timestamp="1636535652257" />
+    <state x="229" y="86" key="SettingsEditor" timestamp="1633920333474">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900/1440.-263.1920.1080@0.0.1440.900" timestamp="1633920333474" />
+    <state x="2065" y="-1" width="670" height="676" key="search.everywhere.popup" timestamp="1634193379907">
+      <screen x="1440" y="-263" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="-1" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-263.1920.1080@1440.-263.1920.1080" timestamp="1634193379907" />
   </component>
 </project>
