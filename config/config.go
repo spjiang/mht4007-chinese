@@ -100,6 +100,12 @@ var Config = struct {
 				{7, 21},
 			},
 		},
+		{
+			MessageType: "PLN",
+			RuleList: [][]int{
+				{1001, 7, 8, 9, 13, 16, 15, 18},
+			},
+		},
 	},
 }
 
@@ -175,6 +181,10 @@ var Group3_info = struct {
 		{
 			"RCF",
 			"无线电通信失效报",
+		},
+		{
+			"PLN",
+			"飞行预报",
 		},
 	},
 }

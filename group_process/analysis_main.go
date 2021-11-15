@@ -11,7 +11,7 @@ import (
 func ProcessMessageMain(message string) (data string, err error) {
 	var (
 		messageRule config.MessageRule
-		role []int
+		role        []int
 	)
 
 	fmt.Println("电报内容: ", message)
@@ -98,6 +98,8 @@ func ProcessMessageMain(message string) (data string, err error) {
 			processRsp, err = AnalysisGroup21(messageArr[index])
 		case 22:
 			processRsp, err = AnalysisGroup22(messageArr[index])
+		case 1001:
+			processRsp, err = AnalysisGroup1001(messageArr[index])
 		default:
 			err = errors.New(fmt.Sprintf("当前未对编组%s的内容进行解析\n", value))
 			return
